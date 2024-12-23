@@ -1,0 +1,39 @@
+
+.hero-section {
+    background-color: rgba(0, 0, 0, 0.7); 
+    background-blend-mode: darken;
+  }
+  
+  .card {
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #4CAF50; 
+  }
+  
+  .btn-success {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+  }
+  
+  .btn-success:hover {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+  }
+  .sign-in-btn:hover {
+    background-color: #4CAF50; 
+    color: white; 
+    border-color: #4CAF50;
+}
+  .nav-tabs .nav-link {
+    color: black; /* اللون الأساسي */
+  }
+  .nav-tabs .nav-link.active {
+    color: black; /* اللون عند التفعيل */
+    font-weight: bold; /* لجعل النص بارزًا إذا رغبت */
+  }
+

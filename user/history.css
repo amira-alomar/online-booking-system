@@ -1,0 +1,126 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.navbar {
+    background-color: #4CAF50;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    color: #fff;
+}
+
+.navbar ul li a {
+    color: #fff;
+}
+
+.table {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status.pending {
+    color: orange;
+}
+
+.status.completed {
+    color: green;
+}
+
+.status.cancelled {
+    color: red;
+}
+
+.btn-back {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.btn-back a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-back:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.btn-back:focus {
+    outline: none;
+}
+
+.navbar .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar ul li a {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ddd;
+}
+
+.navbar .username {
+    font-weight: bold;
+    color: #fff !important;
+    padding: 8px 16px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.navbar .username:hover {
+    background-color: #fff;
+    color: #4CAF50 !important;
+}
+
+.dropdown-menu {
+    background-color: #4CAF50;
+    border: none;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #3E8E41;
+}
+
+.table-striped tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
